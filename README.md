@@ -1,4 +1,4 @@
-# Ritik Bhardwaj Portfolio
+# My Portfolio
 
 Premium personal portfolio for a B.Tech CSE (AI & ML) student, built with React, Vite, Tailwind CSS, Framer Motion, and React Three Fiber.
 
