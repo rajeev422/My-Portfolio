@@ -34,7 +34,9 @@ function CodingPlatformsSection({ items }) {
               <ExternalLink className="text-theme-muted h-4 w-4 transition group-hover:text-[color:var(--accent)]" />
             </div>
             <h3 className="text-theme mt-5 text-xl font-semibold">{platform.label}</h3>
-            <p className="text-theme-soft mt-3 text-sm leading-7 break-all">{platform.href.replace("https://", "")}</p>
+            <p className="text-theme-soft mt-3 text-sm leading-7">
+              View my {platform.label} profile directly.
+            </p>
           </motion.a>
         ))}
       </motion.div>

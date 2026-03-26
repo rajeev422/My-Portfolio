@@ -67,7 +67,7 @@ function HeroSection({ hero }) {
           </motion.div>
           <motion.div variants={fadeInLeft} className="text-theme-muted mt-10 flex items-center gap-4">
             <a
-              href="https://github.com/Ritik4259"
+              href="https://github.com/rajeev422"
               target="_blank"
               rel="noreferrer"
               className="surface-soft border-theme hover:text-theme flex h-12 w-12 items-center justify-center rounded-full border transition hover:scale-105"
@@ -75,7 +75,7 @@ function HeroSection({ hero }) {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://www.linkedin.com/in/ritikbhardwaj535/"
+              href="https://www.linkedin.com/in/rajeev068/"
               target="_blank"
               rel="noreferrer"
               className="surface-soft border-theme hover:text-theme flex h-12 w-12 items-center justify-center rounded-full border transition hover:scale-105"

@@ -47,15 +47,17 @@ function ProjectModal({ project, onClose }) {
             ))}
           </div>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              className="surface-soft border-theme text-theme inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-medium"
-            >
-              <Github className="h-4 w-4" />
-              GitHub
-            </a>
+            {project.github ? (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="surface-soft border-theme text-theme inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-medium"
+              >
+                <Github className="h-4 w-4" />
+                GitHub
+              </a>
+            ) : null}
             {project.demo ? (
               <a
                 href={project.demo}
@@ -106,9 +108,11 @@ function ProjectsSection({ projects }) {
                   Case Study {index + 1}
                 </span>
                 <div className="text-theme-muted flex gap-3">
-                  <a href={project.github} target="_blank" rel="noreferrer">
-                    <Github className="hover:text-theme h-5 w-5 transition" />
-                  </a>
+                  {project.github ? (
+                    <a href={project.github} target="_blank" rel="noreferrer">
+                      <Github className="hover:text-theme h-5 w-5 transition" />
+                    </a>
+                  ) : null}
                   {project.demo ? (
                     <a href={project.demo} target="_blank" rel="noreferrer">
                       <ArrowUpRight className="hover:text-theme h-5 w-5 transition" />

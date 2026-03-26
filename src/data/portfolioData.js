@@ -5,72 +5,80 @@ export const portfolioData = {
     { label: "Projects", href: "#projects" },
     { label: "Journey", href: "#journey" },
     { label: "Resume", href: "#resume" },
-    { label: "Certs", href: "#certificates" },
     { label: "Education", href: "#education" },
     { label: "Platforms", href: "#platforms" },
     { label: "Contact", href: "#contact" },
   ],
   hero: {
-    name: "Ritik Bhardwaj",
+    name: "Rajeev Choudhary",
     tagline: "B.Tech CSE (AI & ML) Student",
     rotatingTitles: [
-      "Aspiring Machine Learning Engineer",
-      "Building Human-Centered AI Experiences",
-      "Designing Intelligent Full-Stack Products",
+      "Machine Learning Enthusiast",
+      "Data-Driven Problem Solver",
+      "Consistent DSA Learner",
     ],
     description:
-      "I blend machine learning curiosity with product-focused engineering to build clean, high-impact experiences that feel fast, thoughtful, and future-ready.",
+      "I enjoy building practical machine learning projects, strengthening my data structures foundation, and turning classroom knowledge into polished, real-world work.",
     primaryCta: { label: "View Projects", href: "#projects" },
     secondaryCta: { label: "Contact Me", href: "#contact" },
     focusAreas: [
       "Machine Learning",
-      "Deep Learning",
       "Data Analysis",
-      "Predictive Modeling",
-      "Computer Vision",
+      "Python",
+      "Scikit-learn",
+      "DSA Practice",
       "Problem Solving",
     ],
   },
   about: {
     intro:
-      "I'm a Computer Science student specializing in AI & Machine Learning, driven by the idea that useful intelligence should feel seamless, intuitive, and deeply practical.",
+      "I'm Rajeev Choudhary, a Computer Science and Engineering student specializing in AI and Machine Learning at Lovely Professional University.",
     story:
-      "My favorite work lives at the intersection of mathematical thinking, rapid experimentation, and polished user experiences. I enjoy moving from model ideas to complete products that recruiters and users can actually explore.",
+      "My work is centered on learning by building. I like moving from messy datasets and raw features to cleaner pipelines, stronger models, and results that are easy to explain and improve.",
     highlights: [
       {
-        title: "Curiosity-Led Learning",
+        title: "Analytical Thinking",
         description:
-          "Constantly exploring model behavior, training workflows, and product design patterns to sharpen both theory and execution.",
+          "I enjoy breaking problems into smaller parts, studying the data carefully, and using structured experimentation to improve results.",
       },
       {
-        title: "Problem-Solving Mindset",
+        title: "Hands-On Learning",
         description:
-          "Breaking ambiguous problems into measurable systems, then iterating with a bias for clarity, experimentation, and impact.",
+          "From DSA training to machine learning projects, I focus on steady practice and practical implementation instead of theory alone.",
       },
       {
-        title: "Built for Momentum",
+        title: "Team Collaboration",
         description:
-          "I value consistent progress, strong fundamentals, and shipping experiences that feel polished from code to interaction.",
+          "I value consistency, collaboration, and learning in public while building skills that translate well to internships and project work.",
       },
     ],
   },
   skills: [
     {
-      title: "Programming",
+      title: "Languages",
       items: [
-        { name: "Python", level: 91 },
-        { name: "C++", level: 82 },
-        { name: "JavaScript", level: 84 },
-        { name: "SQL", level: 76 },
+        { name: "C", level: 78 },
+        { name: "C++", level: 84 },
+        { name: "Python", level: 88 },
+        { name: "JavaScript", level: 72 },
       ],
     },
     {
-      title: "ML / AI",
+      title: "Web + Data",
       items: [
-        { name: "TensorFlow", level: 80 },
-        { name: "Scikit-learn", level: 88 },
-        { name: "Pandas / NumPy", level: 90 },
-        { name: "Computer Vision", level: 74 },
+        { name: "HTML", level: 80 },
+        { name: "CSS", level: 78 },
+        { name: "MySQL", level: 74 },
+        { name: "Linux", level: 70 },
+      ],
+    },
+    {
+      title: "ML Toolkit",
+      items: [
+        { name: "NumPy", level: 86 },
+        { name: "Pandas", level: 87 },
+        { name: "Scikit-learn", level: 84 },
+        { name: "Matplotlib / Seaborn", level: 80 },
       ],
     },
   ],
@@ -78,167 +86,130 @@ export const portfolioData = {
     {
       title: "Car Price Prediction",
       description:
-        "A machine learning project focused on estimating car prices from input features to support faster and more informed pricing decisions.",
-      stack: ["Python", "Machine Learning", "Pandas", "Scikit-learn"],
-      github: "https://github.com/Ritik4259/Car-Price-Prediction",
+        "A regression-based machine learning project for predicting car prices from structured automobile data.",
+      stack: ["Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+      github: "https://github.com/rajeev422/Car-price-prediction",
       demo: "",
       detail:
-        "Built around a supervised learning workflow with data preprocessing, feature handling, and model evaluation to predict vehicle prices from structured inputs.",
-    },
-    {
-      title: "Fake Social Media Account Detection",
-      description:
-        "A classification project aimed at identifying fake social media accounts using behavioral and profile-based signals.",
-      stack: ["Python", "Classification", "Data Analysis", "Scikit-learn"],
-      github: "https://github.com/Ritik4259/INT395---Fake-Social-Media-Account-Detection",
-      demo: "",
-      detail:
-        "Focused on detecting suspicious account patterns by preparing structured data, training classification models, and evaluating predictive performance.",
+        "Cleaned inconsistent data, encoded categorical variables with ColumnTransformer, standardized features, applied Ridge and Lasso regularization, and improved interpretability with SelectKBest, R², MSE, residual plots, and KDE analysis.",
     },
     {
       title: "Diabetes Prediction",
       description:
-        "A healthcare-oriented prediction model for estimating diabetes risk from medical input features.",
-      stack: ["Python", "Healthcare ML", "Pandas", "Scikit-learn"],
-      github: "https://github.com/Ritik4259/Diabetes-Prediction",
+        "A healthcare-focused classification project designed to predict diabetes with careful attention to class imbalance.",
+      stack: ["Scikit-learn", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+      github: "https://github.com/rajeev422/diabetes_prediction",
       demo: "",
       detail:
-        "Designed to demonstrate practical machine learning in a healthcare context, with a clean prediction pipeline and interpretable structured inputs.",
-    },
-    {
-      title: "Valuefy Assessment",
-      description:
-        "A technical assessment project showcasing problem solving, implementation quality, and structured engineering thinking.",
-      stack: ["JavaScript", "Problem Solving", "Frontend", "Assessment Project"],
-      github: "https://github.com/Ritik4259/Valuefy-assessment",
-      demo: "",
-      detail:
-        "Built as an assessment submission with emphasis on clarity, execution, and translating requirements into a working technical solution.",
+        "Built and compared Logistic Regression, SVM, Decision Tree, and Random Forest models, then improved the final system with tuning, class weighting, threshold adjustment, and evaluation through recall, F1-score, confusion matrix, and overall accuracy.",
     },
   ],
   timeline: [
     {
-      year: "2026",
-      title: "Advanced AI & ML Coursework",
-      subtitle: "Deepened foundations across ML workflows and experimentation",
-      type: "Coursework",
+      year: "Present",
+      title: "300+ DSA Problems Solved",
+      subtitle: "Practicing consistently across LeetCode and GeeksforGeeks to sharpen algorithmic thinking and coding speed.",
+      type: "Achievement",
     },
     {
-      year: "2025",
-      title: "Certification Milestones",
-      subtitle: "Completed focused certifications in Python, data science, and model development",
-      type: "Certification",
+      year: "Jun 2025 - Jul 2025",
+      title: "Cipher Schools Training",
+      subtitle: "Completed project-based DSA training with live doubt solving, real-world projects, and public project pitching.",
+      type: "Training",
     },
     {
-      year: "2025",
-      title: "Hackathons & Problem Solving",
-      subtitle: "Built rapid prototypes, collaborated under time constraints, and sharpened coding instincts",
-      type: "Experience",
+      year: "Oct 2025",
+      title: "Car Price Prediction",
+      subtitle: "Built a regression workflow covering preprocessing, feature engineering, regularization, and model evaluation.",
+      type: "Project",
     },
     {
-      year: "2024",
-      title: "Full-Stack + AI Portfolio Projects",
-      subtitle: "Started building end-to-end products blending intelligence, design, and deployment readiness",
-      type: "Project Work",
+      year: "Oct 2025",
+      title: "Diabetes Prediction",
+      subtitle: "Created a classification pipeline focused on recall, data quality, hyperparameter tuning, and reliable healthcare predictions.",
+      type: "Project",
+    },
+    {
+      year: "Aug 2023 - Present",
+      title: "B.Tech in CSE (AI & ML)",
+      subtitle: "Pursuing my degree at Lovely Professional University while building a foundation in ML, DSA, and software tools.",
+      type: "Education",
     },
   ],
   resume: {
-    href: "/Ritik%20CV%20(4).pdf",
+    href: "/Rajeev-CV.pdf",
     description:
-      "Download or preview my latest resume directly from the portfolio for a faster recruiter workflow.",
+      "Download or preview the same CV used to align this portfolio, including education, training, projects, and achievements.",
   },
-  certificates: [
-    {
-      title: "Supervised Machine Learning: Classification",
-      issuer: "Coursera",
-      date: "Feb 2026",
-      href: "https://coursera.org/share/d0f6a535c4ad60d9ace8bafd564d267c",
-    },
-    {
-      title: "Advanced Learning Algorithms",
-      issuer: "Coursera",
-      date: "Jan 2026",
-      href: "https://coursera.org/share/d7b16772ec8e3011601df1e0ca599ba7",
-    },
-    {
-      title: "Supervised Machine Learning: Regression",
-      issuer: "Coursera",
-      date: "Jan 2026",
-      href: "https://coursera.org/share/8ea7594e3c0d214499a00bcf1d17b5dc",
-    },
-    {
-      title: "Data Analysis with Python",
-      issuer: "Coursera",
-      date: "Jan 2026",
-      href: "https://coursera.org/share/bce77ac96c81a99bd72e39ee4ac597b0",
-    },
-  ],
+  certificates: [],
   education: [
     {
       institution: "Lovely Professional University",
       location: "Phagwara, Punjab",
       degree: "Bachelor of Technology - Computer Science and Engineering (AI and ML)",
       scoreLabel: "CGPA",
-      score: "8.76",
+      score: "7.2",
       period: "Aug 2023 - Present",
     },
     {
-      institution: "Army Public School",
-      location: "Dhaula Kuan, Delhi",
+      institution: "VLM Public School",
+      location: "Alwar, Rajasthan",
       degree: "Intermediate",
       scoreLabel: "Percentage",
-      score: "79%",
-      period: "Mar 2021 - Mar 2022",
+      score: "70%",
+      period: "2019 - 2020",
     },
     {
-      institution: "Army Public School",
-      location: "Bareilly Cantt, UP",
+      institution: "VLM Public School",
+      location: "Alwar, Rajasthan",
       degree: "Matriculation",
       scoreLabel: "Percentage",
-      score: "91.6%",
-      period: "Mar 2019 - Mar 2020",
+      score: "81%",
+      period: "2021 - 2022",
     },
   ],
   contact: {
-    email: "ritikbhardwaj535@gmail.com",
+    email: "rajeevchoudhary1035@gmail.com",
     intro:
-      "Whether it's an internship, a machine learning collaboration, or a high-impact product idea, I'd love to connect.",
+      "I'm open to internships, collaborations, and opportunities where I can keep growing through real engineering and machine learning work.",
     socials: [
-      { label: "GitHub", href: "https://github.com/Ritik4259" },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/ritikbhardwaj535/" },
+      { label: "GitHub", href: "https://github.com/rajeev422" },
+      { label: "LinkedIn", href: "https://www.linkedin.com/in/rajeev068/" },
     ],
     codingPlatforms: [
-      { label: "LeetCode", href: "https://leetcode.com/u/ritik_1111/" },
-      { label: "GeeksforGeeks", href: "https://www.geeksforgeeks.org/profile/ritik_1111?tab=activity" },
-      { label: "Codolio", href: "https://codolio.com/profile/ritik__111" },
+      { label: "LeetCode", href: "https://leetcode.com/u/rajeevChoudhary/" },
+      {
+        label: "GeeksforGeeks",
+        href: "https://www.geeksforgeeks.org/profile/jaatraj6ffx?from=explore&tab=activity",
+      },
     ],
   },
 };
 
 export const stats = [
   {
-    value: "4+",
-    label: "Flagship portfolio project concepts",
-    description: "Built to communicate range across AI, full-stack systems, and UX polish.",
+    value: "2",
+    label: "Machine learning projects on the portfolio",
+    description: "Focused on practical prediction problems with real preprocessing, tuning, and evaluation work.",
   },
   {
-    value: "10+",
-    label: "Core tools across ML and web engineering",
-    description: "Comfortable moving between experimentation, data pipelines, and modern interfaces.",
+    value: "300+",
+    label: "DSA problems solved",
+    description: "Ongoing problem-solving practice across major coding platforms to build consistency and speed.",
   },
   {
-    value: "Infinite",
-    label: "Curiosity for learning",
-    description: "The through-line behind every course, project, and late-night technical rabbit hole.",
+    value: "7.2",
+    label: "Current CGPA",
+    description: "Academic progress in Computer Science and Engineering with specialization in AI and ML.",
   },
 ];
 
 export const terminalLines = [
-  { command: "whoami", output: "Ritik Bhardwaj // AI & ML Student // Builder" },
+  { command: "whoami", output: "Rajeev Choudhary // AI & ML Student // ML Learner" },
   {
     command: "focus --today",
-    output: "Machine learning systems, product UX, and recruiter-ready storytelling",
+    output: "Machine learning projects, DSA consistency, and internship-ready growth",
   },
-  { command: "ls skills/", output: "python  cpp  tensorflow  scikit-learn  pandas  numpy" },
-  { command: "cat mission.txt", output: "Turn complex ideas into elegant, useful, intelligent products." },
+  { command: "ls skills/", output: "c  cpp  python  html  css  javascript  sklearn  pandas  numpy" },
+  { command: "cat mission.txt", output: "Keep learning by building practical, reliable, and data-driven solutions." },
 ];

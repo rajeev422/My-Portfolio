@@ -28,15 +28,19 @@ function EducationSection({ items }) {
               <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-300/10 text-sky-200">
                 <GraduationCap className="h-5 w-5" />
               </div>
-              <span className="surface-soft border-theme text-theme-soft rounded-full border px-3 py-1 text-xs uppercase tracking-[0.2em]">
-                {item.period}
-              </span>
+              {item.period ? (
+                <span className="surface-soft border-theme text-theme-soft rounded-full border px-3 py-1 text-xs uppercase tracking-[0.2em]">
+                  {item.period}
+                </span>
+              ) : null}
             </div>
             <h3 className="text-theme mt-5 text-xl font-semibold">{item.institution}</h3>
-            <div className="text-theme-muted mt-3 flex items-center gap-2 text-sm">
-              <MapPin className="h-4 w-4" />
-              <span>{item.location}</span>
-            </div>
+            {item.location ? (
+              <div className="text-theme-muted mt-3 flex items-center gap-2 text-sm">
+                <MapPin className="h-4 w-4" />
+                <span>{item.location}</span>
+              </div>
+            ) : null}
             <p className="text-theme-soft mt-5 text-sm leading-7">{item.degree}</p>
             <p className="text-theme mt-4 text-sm font-medium">{item.scoreLabel}: {item.score}</p>
           </motion.article>

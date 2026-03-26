@@ -10,7 +10,7 @@ function Navbar({ links, onThemeToggle, themeIcon }) {
     >
       <div className="glass-panel mx-auto flex max-w-7xl items-center justify-between rounded-full border-white/10 px-4 py-3 md:px-6">
         <a href="#home" className="text-theme font-display text-sm font-semibold uppercase tracking-[0.35em]">
-          RB
+          RC
         </a>
         <nav className="hidden items-center gap-6 md:flex">
           {links.map((link) => (

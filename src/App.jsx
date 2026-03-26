@@ -150,10 +150,14 @@ function App() {
           <ProjectsSection projects={portfolioData.projects} />
           <TimelineSection items={portfolioData.timeline} />
           <ResumeSection resume={portfolioData.resume} />
-          <CertificatesSection items={portfolioData.certificates} />
+          {portfolioData.certificates.length > 0 ? (
+            <CertificatesSection items={portfolioData.certificates} />
+          ) : null}
           <EducationSection items={portfolioData.education} />
           <TerminalSection lines={terminalLines} />
-          <CodingPlatformsSection items={portfolioData.contact.codingPlatforms} />
+          {portfolioData.contact.codingPlatforms.length > 0 ? (
+            <CodingPlatformsSection items={portfolioData.contact.codingPlatforms} />
+          ) : null}
           <ContactSection contact={portfolioData.contact} />
         </Suspense>
       </main>
